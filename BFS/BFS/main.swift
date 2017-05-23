@@ -8,5 +8,15 @@
 
 import Foundation
 
-print("Hello, World!")
+print("Lab 3 \"Breadth-first search\"  \n")
+print("Getting edges from adjacency matrix: \n")
+
+var matrix = MatrixManager().matrix
+
+MatrixManager.printMatrix(matrix)
+
+var node = 3
+
+MatrixManager.printBFSMatrix(&matrix, forNode: &node)
+
 
